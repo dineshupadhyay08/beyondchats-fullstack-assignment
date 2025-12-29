@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
+import "./App.css";
 
 function App() {
   const [articles, setArticles] = useState([]);
@@ -23,27 +24,17 @@ function App() {
   }
 
   return (
-    <div style={{ padding: "20px", fontFamily: "Arial" }}>
+    <div className="container">
       <h1>BeyondChats Articles</h1>
 
-      {articles.length === 0 && <p>No articles found</p>}
-
       {articles.map((article) => (
-        <div
-          key={article._id}
-          style={{
-            border: "1px solid #ddd",
-            padding: "15px",
-            marginBottom: "15px",
-            borderRadius: "6px",
-          }}
-        >
+        <div key={article._id} className="card">
           <h2>{article.title}</h2>
           <p>{article.originalContent}</p>
 
           {article.sourceUrl && (
             <a href={article.sourceUrl} target="_blank" rel="noreferrer">
-              Read Original
+              Read original article →
             </a>
           )}
         </div>
