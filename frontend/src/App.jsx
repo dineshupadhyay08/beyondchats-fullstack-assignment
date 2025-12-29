@@ -8,7 +8,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5001/articles")
+      .get("https://beyondchats-fullstack-assignment-cfc9.onrender.com")
       .then((res) => {
         setArticles(res.data);
         setLoading(false);
