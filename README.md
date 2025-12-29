@@ -1,3 +1,4 @@
+
 # BeyondChats – Full Stack Assignment
 
 This project is developed as part of the BeyondChats Full Stack Internship Assignment.
@@ -29,6 +30,15 @@ The project consists of three major phases:
 
 ---
 
+## 🌐 Live Link
+
+Frontend Live URL:
+(Deploy on Vercel / Netlify and paste the link here)
+
+
+
+---
+
 ## 🛠 Tech Stack
 
 ### Backend
@@ -43,29 +53,29 @@ The project consists of three major phases:
 
 ### Tools & Utilities
 - Git & GitHub
-- Postman / Thunder Client (API testing)
+- Postman (API testing)
 
 ---
 
+
 ## 📂 Project Structure
 
+```text
 beyondchats-fullstack-assignment/
 ├── backend/
-│ ├── app.js
-│ ├── db.js
-│ ├── models/
-│ ├── routes/
-│ └── scraper/ (proof of concept)
+│   ├── app.js
+│   ├── db.js
+│   ├── models/
+│   ├── routes/
+│   └── scraper/  
 ├── frontend/
-│ ├── src/
-│ ├── index.html
-│ └── vite.config.js
+│   ├── src/
+│   ├── index.html
+│   └── vite.config.js
 ├── .gitignore
 └── README.md
 
-yaml
-Copy code
-
+```
 ---
 
 ## ⚙️ Local Setup Instructions
@@ -74,24 +84,20 @@ Copy code
 1. Navigate to the backend folder:
 cd backend
 
-markdown
-Copy code
-2. Install dependencies:
-npm install
+ 
 
-markdown
-Copy code
+2. Install dependencies:
+                npm install
+              
+
 3. Create a `.env` file:
 PORT=5001
 MONGO_URL=your_mongodb_connection_string
 
-markdown
-Copy code
-4. Start the backend server:
-npm run dev
 
-yaml
-Copy code
+4. Start the backend server:
+nodemon app.js     
+
 
 ---
 
@@ -99,24 +105,20 @@ Copy code
 1. Navigate to the frontend folder:
 cd frontend
 
-markdown
-Copy code
+
 2. Install dependencies:
 npm install
 
-markdown
-Copy code
+
 3. Start the frontend:
 npm run dev
 
-nginx
-Copy code
 
-The frontend will run on:
+
+ The frontend will run on:
 http://localhost:5173
 
-yaml
-Copy code
+
 
 ---
 
@@ -131,15 +133,7 @@ Copy code
 
 ---
 
-## 🌐 Live Link
 
-Frontend Live URL:
-(Deploy on Vercel / Netlify and paste the link here)
-
-yaml
-Copy code
-
----
 
 ## 🎨 UI/UX Notes
 
