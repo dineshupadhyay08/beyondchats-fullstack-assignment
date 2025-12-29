@@ -33,7 +33,8 @@ The project consists of three major phases:
 ## 🌐 Live Link
 
 Frontend Live URL: https://beyondchats-fullstack-assignment.vercel.app/
-(Deploy on Vercel / Netlify and paste the link here)
+
+(Deploy on Vercel and paste the link here)
 
 
 
